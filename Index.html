@@ -19,7 +19,6 @@
          }
          
          .display{
-             
              border-radius: 5px;
              height: 100px;
              background-color: #3a4452;
@@ -57,8 +56,6 @@
              row-gap: 10px;
              padding:10px 0px;
              border-radius: 5px;
-            
-            
          }
          .key{
              background: transparent;
@@ -97,7 +94,6 @@
             </div>
         </div>
         <div class="cal_body">
-           
             <input type="button" class="key" value="AC" onclick="display.value= '' " />
             <input type="button" class="key" value="DE" onclick= "display.value = display.value.toString().slice(0,-1)" />
             <input type="button" class="key" value="." onclick="display.value += '.' " />
@@ -117,7 +113,6 @@
             <input type="button" class="key" value="00" onclick="display.value += '00' " />
             <input type="button" class="key" value="0" onclick="display.value += '0' " />
             <input type="button" id="equal" class="key" value="=" onclick="display.value = eval(display.value)" />
-           
            
         </div>
        </form>
